@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 const NavbarData = () => {
   return (
     <Navbar expand="lg" className="sticky-top bg-light" id="navbar">
-      <Container fluid>
+      <Container>
         <Link href="/">
           <Image
             src="/logo.png"
